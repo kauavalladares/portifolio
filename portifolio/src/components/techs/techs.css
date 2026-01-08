@@ -1,0 +1,35 @@
+.techs {
+  text-align: center;
+}
+
+.techs h2 {
+  color: var(--accent);
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tech-grid div {
+  padding: 1rem;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  background: #020617;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+
+.tech-grid div:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+}
+.tech-grid img {
+  width: 40px;
+  margin-bottom: 0.5rem;
+}
